@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+/*-----thuvien Document --------*/
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	scroll-behavior: smooth;
+	cursor: url("../images/cursor.png"),auto;
+}
+*:active{
+	cursor: url("../images/cursor-click.png"), pointer;
+}
+body{font-family: "Oswald", sans-serif;}
+.container-fluid{ width: 97vw ;margin: 0px 10px;}
+.container{ width: 96vw ; margin: 0 16px;}
+.row { display: flex; flex-wrap: wrap;}
+
+section{ padding: 100px 0; min-height: 800px;}
+/*---------------dien thoai di dong-----------*/
+	.h-500{ height: 500px}
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+[class*="col-"] {padding: 15px;}
+
+.justy-between{justify-content: space-between}
+.justy-end{justify-content: flex-end}
+.justy-center{justify-content: center}
+.align-center{align-items: center;}
+.align-end{align-items: flex-end}
+
+.w-100{ width: 100%; height: auto}
+.center{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media (max-width: 576px)
+{	
+	.container{ width: 540px; margin: auto}
+	.col-es-1 {width: 8.33%;}
+	.col-es-2 {width: 16.66%;}
+	.col-es-3 {width: 25%;}
+	.col-es-4 {width: 33.33%;}
+	.col-es-5 {width: 41.66%;}
+	.col-es-6 {width: 50%;}
+	.col-es-7 {width: 58.33%;}
+	.col-es-8 {width: 66.66%;}
+	.col-es-9 {width: 75%;}
+	.col-es-10 {width: 83.33%;}
+	.col-es-11 {width: 91.66%;}
+	.col-es-12 {width: 100%;}
+}
+/*---------------------------------style- code dien thoai------------------------------------------------*/
+@media (min-width: 576px)
+{	
+	.container{ width: 540px; margin: auto}
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+	
+}
+/*---------------------------------style- code tablet------------------------------------------------*/
+@media (min-width: 768px)
+{	
+	.container{ width: 720px; margin: auto}
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+}
+/*---------------------------------style- code tablet------------------------------------------------*/
+@media (min-width: 995px)
+{	
+	.container{ width: 960px; margin: auto}
+	.col-l-1 {width: 8.33%;}
+	.col-l-2 {width: 16.66%;}
+	.col-l-3 {width: 25%;}
+	.col-l-4 {width: 33.33%;}
+	.col-l-5 {width: 41.66%;}
+	.col-l-6 {width: 50%;}
+	.col-l-7 {width: 58.33%;}
+	.col-l-8 {width: 66.66%;}
+	.col-l-9 {width: 75%;}
+	.col-l-10 {width: 83.33%;}
+	.col-l-11 {width: 91.66%;}
+	.col-l-12 {width: 100%;}
+}
+/*---------------------------------style- code pc nho width 1200px ------------------------------------------------*/
+@media (min-width:1200px)
+{
+	.container{ width:1140px; margin: auto}
+	.col-xl-1 {width: 8.33%;}
+	.col-xl-2 {width: 16.66%;}
+	.col-xl-3 {width: 25%;}
+	.col-xl-4 {width: 33.33%;}
+	.col-xl-5 {width: 41.66%;}
+	.col-xl-6 {width: 50%;}
+	.col-xl-7 {width: 58.33%;}
+	.col-xl-8 {width: 66.66%;}
+	.col-xl-9 {width: 75%;}
+	.col-xl-10 {width: 83.33%;}
+	.col-xl-11 {width: 91.66%;}
+	.col-xl-12 {width: 100%;}
+	}
+
+/*lightmode-----------------------------*/
+.lightmode{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 4px
+}
+.checkbox{
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 55px;
+  height: 26px;
+  background-color:#1e1e1e;
+  display: flex;
+  border-radius:50px;
+  padding: 5px 7px;
+	position: relative;
+	transform: scale(1.2);
+	top: 8px; left: 35px;
+	box-shadow: -2px -2px 7px 1px rgba(122,122,122,0.5), 3px 5px 7px 2px rgba(10,10,10,0.90);
+}
+.ball {
+  width: 18px;
+  height: 18px;
+  background-color: cornsilk;
+
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.sunny{position: relative;left: -2px;color: cornsilk}
+.moon{position: relative;left: 7px;color: cornsilk}
+
+.checkbox:checked + .label .ball{
+  transform: translateX(25px);
+}
